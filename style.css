@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+
+*{
+    box-sizing;
+}
+
+body{
+    font-family: 'Langar', cursive;
+}
+h2{
+    text-align: center;
+    color:green;
+}
