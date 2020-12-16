@@ -1,13 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
 
-*{
-    box-sizing;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-family: 'Langar', cursive;
+body {
+  background-image: url(./img/img2.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  font-family: "Langar", cursive;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-h2{
-    text-align: center;
-    color:green;
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 55px;
+}
+h4,
+p {
+  color: white;
+}
+.countdown-container {
+  display: flex;
+}
+.big-text {
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+h4#footer {
+  font-size: 72px;
 }
